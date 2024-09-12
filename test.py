@@ -28,4 +28,10 @@ Five (5) functions to be made:
 5. Output
     -- After each battle, the program should ask the user if they want to continue battling or not. If the user chooses to continue, the program should repeat the battle simulation process. If the user chooses to stop, the program should display the number of battles won by the user and the computer.
     -- The program should display the number of battles won by the user and the computer.
- """
+"""
+
+# Importing python files
+from selection import introduction, printing_pokemon_list
+
+introduction()
+print(printing_pokemon_list())
